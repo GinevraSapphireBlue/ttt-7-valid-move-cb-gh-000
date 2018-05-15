@@ -11,6 +11,8 @@ end
 def position_taken? (board, position)
   if board[position].strip == ""
     true
+  elsif board[position] == 'X' || board[position] == 'O'
+    false
   else
     false
   end
