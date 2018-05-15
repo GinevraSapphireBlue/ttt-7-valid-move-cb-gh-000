@@ -7,7 +7,7 @@ end
 def position_taken? (board, position)
   if board[position].strip == ""
     false
-  elsif board[postion] == 'X' || board[postion] == 'O'
+  elsif board[position] == 'X' || board[postion] == 'O'
     true
   else
     false
